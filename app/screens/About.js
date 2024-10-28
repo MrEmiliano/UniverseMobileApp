@@ -6,7 +6,6 @@ import {
   StyleSheet,
   Dimensions,
   TouchableOpacity,
-  ImageBackground,
   ScrollView,
 } from "react-native";
 import { useFonts } from "expo-font";
@@ -25,7 +24,7 @@ function About({ navigation }) {
   return (
     <View style={styles.root}>
       <TouchableOpacity
-        onPress={() => navigation.navigate("Intro")}
+        onPress={() => navigation.navigate("Homepage")}
         style={styles.backButton}
       >
         <Image
@@ -65,7 +64,7 @@ function About({ navigation }) {
           </Text>
 
           <Image
-            source={require("../assets/Logoanimated.gif")}
+            source={require("../assets/animated.gif")}
             style={{
               bottom: screenHeight * 0.2,
               width: 280,

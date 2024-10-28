@@ -47,7 +47,7 @@ function Login() {
           style={styles.backArrow}
         />
       </TouchableOpacity>
-      <TouchableOpacity style={styles.loginButton} onPress={() => navigation.navigate('LoginScreen')}>
+      <TouchableOpacity style={styles.loginButton} onPress={() => navigation.navigate('Homepage')}>
         <Text style={styles.loginButtonText}>Log in</Text>
       </TouchableOpacity>
     </View>
